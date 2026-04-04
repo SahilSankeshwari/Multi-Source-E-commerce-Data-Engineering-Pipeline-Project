@@ -37,7 +37,6 @@
 
 * Loaded Ecommerce.csv into Databricks
 * Read data using PySpark
-* Created temporary view for SQL operations
 
 <img width="1918" height="1032" alt="04_Azure_Storage_Directory" src="https://github.com/user-attachments/assets/6b8d2acc-c511-4685-9db5-13f309c1cd3c" />
 
@@ -59,14 +58,16 @@
 
 ## 🔹 Step 5: Data Ingestion using ADF
 
-* Created ADF pipeline
-* Used Copy Activity to move data:
+* Created Azure Data Factory (ADF) pipeline
 
-  * Source → ADLS Bronze layer
-* Connected Databricks notebooks in pipeline
+* Used **Copy Activity** to move data:
 
-📸 Screenshot:
-(Add ADF pipeline design screenshot)
+  * From Azure SQL Database → ADLS Bronze layer
+
+* This step loads raw data into the Bronze layer for further processing
+
+<img width="1912" height="713" alt="06_ADF_Source2_SQL_To_ADLS" src="https://github.com/user-attachments/assets/2640c01f-5ffe-4db5-842e-34c8d4f54dda" />
+
 
 ---
 
@@ -92,7 +93,6 @@
 
   * orders
   * customers
-* No transformations applied
 
 
 ---
@@ -120,29 +120,33 @@ Performed data cleaning:
 📊 KPIs Created:
 
 * Total Revenue
+
 * Total Orders
+
 * Revenue by Category
+
 * Revenue by City
+
 * Monthly Revenue Trend
+
 * Average Order Value
+
 * Top Customers
+
 * Payment Analysis
+
 * Return Analysis
 
+📊 Unified reporting table Created:
 
----
+* Created a **unified reporting table** by combining all key metrics
 
-## 🔹 Step 10: Reporting Layer
-
-* Created **unified reporting table**
-* Combined all important business metrics
-* Prepared final dataset for dashboard
-
+* This table is used as the final dataset for reporting (Power BI)
 
 
 ---
 
-## 🔹 Step 11: Pipeline Orchestration
+## 🔹 Step 10: Pipeline Orchestration
 
 * Built end-to-end pipeline in ADF:
 
@@ -156,7 +160,7 @@ Performed data cleaning:
 
 ---
 
-## 🔹 Step 12: Power BI Dashboard
+## 🔹 Step 11: Power BI Dashboard
 
 * Created interactive dashboard
 * Visualized:
