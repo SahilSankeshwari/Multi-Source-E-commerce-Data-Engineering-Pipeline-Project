@@ -137,6 +137,7 @@ Performed data cleaning and transformation:
   * Data Ingestion
   * Data Transformation
   * Reporting Layer
+  * Final Copy Activity (stored Gold reporting table in ADLS)
 * Automated full workflow
 
 ---
