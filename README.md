@@ -165,6 +165,11 @@ Performed data cleaning and transformation:
 
 ##  Conclusion
 
-This project demonstrates building a complete data engineering pipeline from raw data ingestion to business reporting using Azure tools.
+This project shows how I built an end-to-end data pipeline using Azure tools.  
+It includes data ingestion, transformation, and reporting.
 
+The pipeline is automated and can handle future incoming data.  
+It processes data efficiently and produces clean, structured data in the Gold layer.
+
+This helps in generating reliable business insights and reports.
 
