@@ -61,8 +61,7 @@ The project follows Medallion Architecture:
 
 * Used Azure Data Factory
 * Copied data from:
-
-  * SFTP → ADLS
+  
   * SQL → ADLS
 * Stored in **Bronze layer**
 
