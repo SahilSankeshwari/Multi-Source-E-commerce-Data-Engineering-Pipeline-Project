@@ -81,7 +81,7 @@ The project follows Medallion Architecture:
 
 Performed data cleaning and transformation:
 
-* Removed duplicates (OrderID)
+* Removed duplicates 
 * Removed invalid records
 * Trimmed spaces
 * Standardized text (Proper case)
