@@ -153,9 +153,10 @@ Performed data cleaning:
   * Data Ingestion
   * Data Transformation
   * Reporting Layer
+  * Final Copy Activity (stored Gold reporting table in ADLS)
 * Automated full workflow
 
-<img width="1918" height="1026" alt="10_Data_factory_Orchestration" src="https://github.com/user-attachments/assets/f92088c0-96bc-4e92-981f-58fe1a76b20a" />
+<img width="1130" height="172" alt="11_Data_Factory_Pipeline_" src="https://github.com/user-attachments/assets/7175acbc-f73f-429c-bd4d-3ebbc59d8e9a" />
 
 
 ---
