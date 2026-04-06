@@ -101,7 +101,7 @@
 
 Performed data cleaning:
 
-* Removed duplicates (OrderID)
+* Removed duplicates
 * Filtered invalid records
 * Trimmed spaces
 * Standardized text (Proper case)
